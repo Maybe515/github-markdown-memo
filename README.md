@@ -75,12 +75,14 @@ GitHub `Markdown` Memo
 GitHub `Markdown` Memo  
 <br>
 - ３重のバッククォートで囲むと行レベルで引用ができる。
-```
+~~~
 Test
+```
 Quote 1
 Quote 2
 Quote 3
 ```
+~~~
 
 Test
 ```
@@ -88,3 +90,5 @@ Quote 1
 Quote 2
 Quote 3
 ```
+> [!NOTE]
+> <code>```</code> (トリプルバッククォート)自体をコード化したい場合は `<code>` タグ、もしくは <code>~~~</code> (トリプルチルダ)、<code>````</code> (クアッドバッククォート)を使用するとできる。
