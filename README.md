@@ -1,5 +1,10 @@
 # GitHub Markdown Memo 📝
-GitHubで使用できるマークダウンやフォーマットの構文を自分なりにまとめとく備忘録。<br>
+  GitHubで使用できるマークダウンやフォーマットの構文を自分なりにまとめとく備忘録。  
+  「あのマークダウンなんだっけ...」「これ表現できるのかな...」と毎度調べるのも面倒なので随時書き足していきます。  
+  <br>
+  
+  ▼いつも参考にしてる記事・文献
+  - [基本的な書き方とフォーマットの構文 - GitHub Docs](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-text)
 <br>
 
 ## 見出し - Heading -
@@ -33,9 +38,8 @@ GitHubで使用できるマークダウンやフォーマットの構文を自�
   <h2 align="center">h2</h2>
   <h3 align="right">h3</h3>
   ```
-  ![heading-align](/images/heading-aling.jpg)
-  
-<br>
+  ![heading-align](/images/heading-aling.jpg)  
+  <br>
 
 ## テキスト書式　- Text Style -
   |スタイル|構文|入力例|出力|
@@ -45,5 +49,6 @@ GitHubで使用できるマークダウンやフォーマットの構文を自�
   |取り消し線|`~~ ~~`|`~~Maybe515~~`|~~Maybe515~~|
   |太字内の斜体|`** **` or `__ __` 内で<br>`* *` or `_ _`|`**May*be*515**`<br>`__May*be*515__`|**May*be*515**<br> __May*be*515__|
   |太字かつ斜体|`*** ***`|`***Maybe515***`|***Maybe515***|
-
+  <br>
+  
 ## テキスト引用　- Text Quote-
