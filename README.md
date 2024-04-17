@@ -32,7 +32,7 @@
   <img src="/images/heading.jpg" alt="heading" height="300px">
   <br>
   
-  - `<h1>`～`<h6>` タグはAlign要素を指定できるので、左揃え・中央揃え・右揃えさせることが可能。
+  - `<h1>`～`<h6>` タグはAlign要素を指定できる。左揃え・中央揃え・右揃えさせることが可能。
   ```
   <h1 align="left">h1</h1>
   <h2 align="center">h2</h2>
@@ -54,7 +54,7 @@
   <br>
   
 ## テキスト引用　- Text Quote-
-  - `>` シンボルを先頭に配置する
+  - `>` シンボルを先頭に配置する。
   ```
   Text Quote
   > Text Quote 1
