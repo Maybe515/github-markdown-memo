@@ -8,7 +8,7 @@
 <br>
 
 ## 見出し - Heading -
-  - １つ～６つの`#`シンボルを先頭に配置する。
+  - １つ～６つの `#` シンボルを先頭に配置する。
   ```
   # h1
   ## h2
@@ -20,7 +20,7 @@
   <img src="/images/heading.jpg" alt="heading" height="300px">
   <br>
   
-  - HTMLの`<h1>`～`<h6>`タグでも同様に"見出し"を生成できる。  
+  - HTMLの `<h1>`～`<h6>` タグでも同様に"見出し"を生成できる。  
   ```
   <h1>h1</h1>
   <h2>h2</h2>
@@ -32,7 +32,7 @@
   <img src="/images/heading.jpg" alt="heading" height="300px">
   <br>
   
-  - `<h1>`～`<h6>`タグはAlign要素を指定できるので、左揃え・中央揃え・右揃えさせることが可能。
+  - `<h1>`～`<h6>` タグはAlign要素を指定できるので、左揃え・中央揃え・右揃えさせることが可能。
   ```
   <h1 align="left">h1</h1>
   <h2 align="center">h2</h2>
@@ -49,8 +49,42 @@
   |取り消し線|`~~ ~~`|`~~Maybe515~~`|~~Maybe515~~|
   |太字内の斜体|`** **` or `__ __` 内で<br>`* *` or `_ _`|`**May*be*515**`<br>`__May*be*515__`|**May*be*515**<br> __May*be*515__|
   |太字かつ斜体|`*** ***`|`***Maybe515***`|***Maybe515***|
+  |Subscript|`<sub> </sub>`|`(Text1) <sub>Maybe515</sub> (Text2)`|(Text1) <sub>Maybe515</sub> (Text2)|
+  |Superscript|`<sup> </sup>`|`(Text1) <sup>Maybe515</sup> (Text2)`|(Text1) <sup>Maybe515</sup> (Text2)|
   <br>
   
 ## テキスト引用　- Text Quote-
   - `>` シンボルを先頭に配置する
-  
+  ```
+  Text Quote
+  > Text Quote 1
+  >> Text Quote 2
+  >>> Text Quote 3
+  ```
+  Text Quote
+  > Text Quote 1
+  >> Text Quote 2
+  >>> Text Quote 3
+  <br>
+
+## コード引用　- Code Quote -
+- 単一のバッククォートで文章内のコード、コマンドを引用できる。
+```
+GitHub `Markdown` Memo
+```
+GitHub `Markdown` Memo  
+<br>
+- ３重のバッククォートで囲むと行レベルで引用ができる。
+```
+Test
+Quote 1
+Quote 2
+Quote 3
+```
+
+Test
+```
+Quote 1
+Quote 2
+Quote 3
+```
