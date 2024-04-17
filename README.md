@@ -17,7 +17,7 @@
   ##### h5
   ###### h6
   ```
-  <img src="/images/heading.jpg" alt="heading" height="100px">
+  <img src="/images/heading.jpg" alt="heading" height="300px">
   <br>
   
   HTMLの`<h1>`～`<h6>`タグでも同様に"見出し"を生成できる。  
@@ -29,7 +29,7 @@
   <h5>h5</h5>
   <h6>h6</h6>
   ```
-  <img src="/images/heading.jpg" alt="heading" height="100px">
+  <img src="/images/heading.jpg" alt="heading" height="300px">
   <br>
   
   `<h1>`～`<h6>`タグはAlign要素を指定できるので、左揃え・中央揃え・右揃えさせることが可能。
@@ -38,7 +38,7 @@
   <h2 align="center">h2</h2>
   <h3 align="right">h3</h3>
   ```
-  ![heading-align](/images/heading-aling.jpg)  
+   <img src="/images/heading-align.jpg" alt="heading-align" width="500px"> 
   <br>
 
 ## テキスト書式　- Text Style -
